@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using thachthaiminhWeb.Models;
+using thachthaiminh.Models;
 
 namespace thachthaiminhWeb.Controllers
 {

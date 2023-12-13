@@ -1,15 +1,15 @@
 using Microsoft.EntityFrameworkCore;
-using thachthaiminhWeb.Data;
+using thachthaiminh.DataAccess.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-//--Connect SQL
+//--Connect DB
 builder.Services.AddDbContext<ApplicationDbContext>(options=>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-//--Connect SQL
+//--Connect DB
 
 var app = builder.Build();
 
