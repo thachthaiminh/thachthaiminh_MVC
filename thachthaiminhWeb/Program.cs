@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using thachthaiminh.DataAccess.Data;
+using thachthaiminhBook.DataAccess.Data;
+using thachthaiminhBook.DataAccess.Repository;
+using thachthaiminhBook.DataAccess.Repository.IRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,8 @@ builder.Services.AddControllersWithViews();
 //--Connect DB
 builder.Services.AddDbContext<ApplicationDbContext>(options=>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 //--Connect DB
 
 var app = builder.Build();
@@ -30,6 +34,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Category}/{action=Index}/{id?}");
+    pattern: "{area=Customer}/{controller=Category}/{action=Index}/{id?}");
 
 app.Run();

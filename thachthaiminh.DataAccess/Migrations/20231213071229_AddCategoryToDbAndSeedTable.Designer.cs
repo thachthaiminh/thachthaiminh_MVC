@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using thachthaiminh.DataAccess.Data;
+using thachthaiminhBook.DataAccess.Data;
 
 #nullable disable
 
-namespace thachthaiminh.DataAccess.Migrations
+namespace thachthaiminhBook.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20231213071229_AddCategoryToDbAndSeedTable")]
@@ -24,7 +24,7 @@ namespace thachthaiminh.DataAccess.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("thachthaiminh.Models.Category", b =>
+            modelBuilder.Entity("thachthaiminhBook.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

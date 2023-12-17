@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace thachthaiminh.DataAccess.Migrations
+namespace thachthaiminhBook.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryToDbAndSeedTable : Migration

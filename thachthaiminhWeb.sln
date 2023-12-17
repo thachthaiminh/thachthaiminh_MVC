@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thachthaiminhWeb", "thachthaiminhWeb\thachthaiminhWeb.csproj", "{3892D1C3-92AB-4059-9DAF-478222BE1DD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thachthaiminhBookWeb", "thachthaiminhWeb\thachthaiminhBookWeb.csproj", "{3892D1C3-92AB-4059-9DAF-478222BE1DD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thachthaiminh.DataAccess", "thachthaiminh.DataAccess\thachthaiminh.DataAccess.csproj", "{A91A3820-F814-47BD-BA22-626C32E5E110}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thachthaiminhBook.DataAccess", "thachthaiminh.DataAccess\thachthaiminhBook.DataAccess.csproj", "{A91A3820-F814-47BD-BA22-626C32E5E110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thachthaiminh.Models", "thachthaiminh.Models\thachthaiminh.Models.csproj", "{0F3B49D2-9EE9-421F-8019-6085F15CEEBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thachthaiminhBook.Models", "thachthaiminh.Models\thachthaiminhBook.Models.csproj", "{0F3B49D2-9EE9-421F-8019-6085F15CEEBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thachthaiminh.Utility", "thachthaiminh.Utility\thachthaiminh.Utility.csproj", "{74110979-FF91-470E-A863-EF60577FB69F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thachthaiminhBook.Utility", "thachthaiminh.Utility\thachthaiminhBook.Utility.csproj", "{74110979-FF91-470E-A863-EF60577FB69F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

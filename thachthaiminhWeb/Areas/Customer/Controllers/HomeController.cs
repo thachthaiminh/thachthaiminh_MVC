@@ -1,9 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using thachthaiminh.Models;
+using thachthaiminhBook.Models;
 
-namespace thachthaiminhWeb.Controllers
+namespace thachthaiminhBookWeb.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

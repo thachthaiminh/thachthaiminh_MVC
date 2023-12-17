@@ -1,4 +1,4 @@
-namespace thachthaiminh.Models
+namespace thachthaiminhBook.Models
 {
     public class ErrorViewModel
     {
